@@ -1,3 +1,4 @@
+import './style.css';
 const ImageCard = () => {
     return (
       <>
@@ -7,8 +8,9 @@ const ImageCard = () => {
             alt="Image"
             className="w-full h-full object-cover"
           />
-          <p className="hidden absolute inset-0 items-center justify-center bg-black bg-opacity-50 text-white text-lg hover:flex transition-opacity duration-300">
-            Our Galaxy
+          {/* <p className="hidden absolute inset-0 items-center justify-center bg-black bg-opacity-50 text-white text-lg hover:flex transition-opacity duration-300"> */}
+            <p className='layer'>
+            <h3>Our Galaxy</h3>
           </p>
         </div>
       </>

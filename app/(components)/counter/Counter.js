@@ -7,7 +7,7 @@ const Counter = () => {
    
    
     const decrementHandler = ()=>{
-        if (count >= 1 ) {
+        if (count > 0 ) {
             setCount(count - 1);
            } 
     }
